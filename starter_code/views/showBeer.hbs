@@ -1,0 +1,12 @@
+<div class="page-header">
+    <h1>Details</h1>
+
+    <div class="random-container">
+        {{#each beers}}
+        {{> random this}}
+        {{/each}}
+    </div>
+    <div class="button-container">
+        <button><a href="/beers">Check all beers</a></button>
+    </div>
+</div>
